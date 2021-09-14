@@ -1,4 +1,4 @@
-(module Lumberg-KLB-4-Klinkensteckverbinder-3_5 (layer F.Cu) (tedit 5F945E20)
+(module Lumberg-KLB-4-Klinkensteckverbinder-3_5 (layer F.Cu) (tedit 610D8A25)
   (fp_text reference REF** (at 0 5.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -9,4 +9,9 @@
   (pad 1 thru_hole oval (at -2.6 0) (size 2 3.4) (drill oval 1 2.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 2.6 0) (size 2 3.4) (drill oval 1 2.2) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 0 -2.55 90) (size 2 3.4) (drill oval 1 2.4) (layers *.Cu *.Mask))
+  (model /home/mario/Dokumente/KiCad/Libraries/h8/packages3d/Lumberg_KLB_4.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
